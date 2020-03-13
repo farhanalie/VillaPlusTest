@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Net;
 using System.Threading.Tasks;
-using EcbForex.API.Resources.Errors;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
-using VillaPlusTest.Domain.Models.Exceptions;
+using VillaPlus.API.Domain.Models.Exceptions;
+using VillaPlus.API.Resources.Errors;
 
-namespace VillaPlusTest.Middleware
+namespace VillaPlus.API.Middleware
 {
     public class ErrorHandlingMiddleware
     {

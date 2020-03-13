@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using VillaPlusTest.Infrastructure.Entities;
+using VillaPlus.API.Infrastructure.Entities;
 
-namespace VillaPlusTest.Infrastructure
+namespace VillaPlus.API.Infrastructure
 {
     public class VpDbContext : DbContext
     {

@@ -1,4 +1,4 @@
-namespace EcbForex.API.Resources.Errors
+namespace VillaPlus.API.Resources.Errors
 {
     public class ErrorDetail
     {

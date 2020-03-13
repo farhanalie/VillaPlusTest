@@ -1,6 +1,6 @@
 using System;
 
-namespace VillaPlusTest.Domain.Models.Exceptions
+namespace VillaPlus.API.Domain.Models.Exceptions
 {
     public class BadRequestException : Exception
     {

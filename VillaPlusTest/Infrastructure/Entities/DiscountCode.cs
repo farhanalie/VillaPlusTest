@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace VillaPlusTest.Infrastructure.Entities
+namespace VillaPlus.API.Infrastructure.Entities
 {
     public class DiscountCode : BaseEntity
     {

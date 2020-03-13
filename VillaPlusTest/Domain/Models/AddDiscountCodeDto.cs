@@ -1,4 +1,4 @@
-﻿namespace VillaPlusTest.Domain.Models
+﻿namespace VillaPlus.API.Domain.Models
 {
     public class AddDiscountCodeDto
     {

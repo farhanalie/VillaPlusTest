@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using VillaPlusTest.Infrastructure.Entities;
-using VillaPlusTest.Resources;
+using VillaPlus.API.Infrastructure.Entities;
+using VillaPlus.API.Resources;
 
-namespace VillaPlusTest.Mappings
+namespace VillaPlus.API.Mappings
 {
     public class MappingProfile : Profile
     {

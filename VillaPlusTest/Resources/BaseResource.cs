@@ -1,4 +1,4 @@
-﻿namespace VillaPlusTest.Resources
+﻿namespace VillaPlus.API.Resources
 {
     public abstract class BaseResource
     {

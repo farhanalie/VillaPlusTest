@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
-using VillaPlusTest.Domain.Models;
-using VillaPlusTest.Resources;
+using VillaPlus.API.Domain.Models;
+using VillaPlus.API.Resources;
 
-namespace VillaPlusTest.Domain.Services
+namespace VillaPlus.API.Domain.Services
 {
     public interface ICartService
     {

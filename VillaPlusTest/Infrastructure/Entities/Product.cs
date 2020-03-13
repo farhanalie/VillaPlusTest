@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace VillaPlusTest.Infrastructure.Entities
+namespace VillaPlus.API.Infrastructure.Entities
 {
     public class Product : BaseEntity
     {

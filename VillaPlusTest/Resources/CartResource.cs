@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace VillaPlusTest.Resources
+namespace VillaPlus.API.Resources
 {
     public class CartResource : BaseResource
     {

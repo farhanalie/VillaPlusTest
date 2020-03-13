@@ -4,15 +4,15 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using VillaPlusTest.Domain.Models;
-using VillaPlusTest.Domain.Models.Exceptions;
-using VillaPlusTest.Domain.Services;
-using VillaPlusTest.Extensions;
-using VillaPlusTest.Infrastructure;
-using VillaPlusTest.Infrastructure.Entities;
-using VillaPlusTest.Resources;
+using VillaPlus.API.Domain.Models;
+using VillaPlus.API.Domain.Models.Exceptions;
+using VillaPlus.API.Domain.Services;
+using VillaPlus.API.Extensions;
+using VillaPlus.API.Infrastructure;
+using VillaPlus.API.Infrastructure.Entities;
+using VillaPlus.API.Resources;
 
-namespace VillaPlusTest.Services
+namespace VillaPlus.API.Services
 {
     public class CartService : ICartService
     {
@@ -95,7 +95,7 @@ namespace VillaPlusTest.Services
                 throw new BadRequestException("Discount Code already applied");
 
             cart.TotalAfterDiscount = cart.Items.Sum(x => x.ItemTotalAfterDiscount).GetPercent(code.DiscountPercentage);
-            cart.DiscountCode = code;
+            cart.DiscountCodeId = code.Id;
             await _dbContext.SaveChangesAsync();
             var resource = _mapper.Map<CartResource>(cart);
             return resource;

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace VillaPlusTest
+namespace VillaPlus.API
 {
     public class Program
     {

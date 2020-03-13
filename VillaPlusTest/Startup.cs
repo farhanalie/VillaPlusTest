@@ -5,13 +5,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using VillaPlusTest.Domain.Services;
-using VillaPlusTest.Infrastructure;
-using VillaPlusTest.Mappings;
-using VillaPlusTest.Middleware;
-using VillaPlusTest.Services;
+using VillaPlus.API.Domain.Services;
+using VillaPlus.API.Infrastructure;
+using VillaPlus.API.Mappings;
+using VillaPlus.API.Middleware;
+using VillaPlus.API.Services;
 
-namespace VillaPlusTest
+namespace VillaPlus.API
 {
     public class Startup
     {

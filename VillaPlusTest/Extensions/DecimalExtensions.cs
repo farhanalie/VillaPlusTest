@@ -1,4 +1,4 @@
-﻿namespace VillaPlusTest.Extensions
+﻿namespace VillaPlus.API.Extensions
 {
     public static class DecimalExtensions
     {

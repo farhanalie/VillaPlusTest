@@ -1,7 +1,6 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace VillaPlusTest.Infrastructure.Entities
+namespace VillaPlus.API.Infrastructure.Entities
 {
     public abstract class BaseEntity
     {

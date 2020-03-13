@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace VillaPlusTest.Infrastructure.Entities
+namespace VillaPlus.API.Infrastructure.Entities
 {
     public class Cart : BaseEntity
     {

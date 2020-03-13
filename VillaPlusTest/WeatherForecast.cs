@@ -1,6 +1,6 @@
 using System;
 
-namespace VillaPlusTest
+namespace VillaPlus.API
 {
     public class WeatherForecast
     {

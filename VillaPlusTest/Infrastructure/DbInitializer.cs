@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using VillaPlusTest.Infrastructure.Entities;
+using VillaPlus.API.Infrastructure.Entities;
 
-namespace VillaPlusTest.Infrastructure
+namespace VillaPlus.API.Infrastructure
 {
     public static class DbInitializer
     {
